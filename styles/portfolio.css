@@ -1,0 +1,38 @@
+/*nav related styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+    color: black;
+    font-size: 30px;
+    font-weight: 800px;
+}
+.Text-primary{
+    color:crimson;
+}
+.btn-prymary{
+    color: white;
+    background-color: crimson;
+    padding: 5px 20px 5px 20px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(110, 102, 102);
+}
